@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        h2 {
-        color: blue;
-            }
-    </style>
+   <style>
+  .red-text {
+    color: red;
+  }
+</style>
 </head>
 <body>
-<h2>CatPhotoApp</h2>   
+<h2 class="red-text">CatPhotoApp</h2>  
 <main>
     <p>
     View more <a target="_blank" href="http://freecatphotoapp.com"> cat photos</a>
