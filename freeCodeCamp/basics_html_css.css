@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        h2 {
+        color: blue;
+            }
+    </style>
+</head>
+<body>
+<h2>CatPhotoApp</h2>   
+<main>
+    <p>
+    View more <a target="_blank" href="http://freecatphotoapp.com"> cat photos</a>
+    </p>
+    <p>Click here to view more (This is a dead link <a href="#" target="_blank">cat photos</a>.</p>
+    
+    <img src="https://bit.ly/fcc-relaxing-cat" alt="A cute orange cat lying on its back.">
+
+    <p>Kitty ipsum dolor sit amet, shed everywhere shed everywhere stretching attack your ankles chase the red dot, hairball run catnip eat the grass sniff.</p>
+    <p>Purr jump eat the grass rip the couch scratched sunbathe, shed everywhere rip the couch sleep in the sink fluffy fur catnip scratched.</p>
+<p>Things cats love:</p>
+<ul>
+    <li>cat nip</li>
+    <li>laser pointers</li>
+    <li>lasagna</li>
+</ul>
+<p>Top 3 things cats hate:</p>
+<ol>
+    <li>water</li>
+    <li>noise</li>
+    <li>big dogs</li>
+</ol>
+   <input type="text" placeholder="cat photo URL">
+ <form action="/submit-cat-photo">
+    <label><input type="radio" name="indoor-outdoor" checked> Indoor</label>
+    <label><input type="radio" name="indoor-outdoor"> Outdoor</label><br>
+    <label><input type="checkbox" name="personality" checked> Loving</label>
+    <label><input type="checkbox" name="personality"> Lazy</label>
+    <label><input type="checkbox" name="personality"> Energetic</label><br>
+    <input type="text" placeholder="cat photo URL" required>
+    <button type="submit">Submit</button>
+  </form>
+</main>
+</body>
+</html>
