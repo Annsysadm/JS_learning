@@ -1,0 +1,34 @@
+/*
+The space between the contents of a box and the borders of a box is known as padding. 
+Padding is like the space between a picture and the frame surrounding it. In CSS, you 
+can modify this space with the padding property.
+*/
+h2 {
+  border: 1px dotted red;
+  color: red;
+  font-size: 14px;
+  line-height: 48px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  }
+/*
+Another implementation of the padding property lets you specify exactly how much 
+padding there should be on each side of the content in a single declaration.
+*/
+p.content-header {
+  border: 3px solid grey;
+  padding: 6px 11px 4px 9px;
+}
+/*
+When using this implementation of the padding property, we must specify a padding value for all four sides of the element.
+*/
+/*
+But if the top and bottom values for padding will equal each other, and the left and right values for padding will also equal each 
+other, you can use the following shortcut: rop-bottom left-right
+*/
+p.content-header {
+  padding: 5px 10px;
+}
